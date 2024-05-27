@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: spring-batch-app
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+  datasource:
+    batch:
+      jdbcUrl: jdbc:postgresql://localhost:5432/spring-batch-app-db
+      username: postgres
+      password: admin
+      driver-class-name: org.postgresql.Driver
+    app:
+      jdbcUrl: jdbc:postgresql://localhost:5432/app-db
+      username: postgres
+      password: admin
+      driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    generate-ddl: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql: trace
