@@ -1,0 +1,58 @@
+2024-05-28 09:59:39 INFO  [main] SpringBatchAppApplication:50 - Starting SpringBatchAppApplication using Java 21.0.2 with PID 9636 (F:\IntelliJ IDEA 2023.1\spring-batch-app\target\classes started by marce in F:\IntelliJ IDEA 2023.1\spring-batch-app)
+2024-05-28 09:59:39 DEBUG [main] SpringBatchAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-05-28 09:59:39 INFO  [main] SpringBatchAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-05-28 09:59:40 WARN  [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker:437 - Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-28 09:59:40 INFO  [main] LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28 09:59:40 INFO  [main] Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-28 09:59:40 INFO  [main] RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-05-28 09:59:40 INFO  [main] HikariDataSource:109 - HikariPool-1 - Starting...
+2024-05-28 09:59:40 INFO  [main] HikariPool:554 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1002d192
+2024-05-28 09:59:40 INFO  [main] HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-05-28 09:59:41 DEBUG [main] DdlTypeRegistry:64 - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6d421fe) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3c17bd0b)
+2024-05-28 09:59:41 DEBUG [main] DdlTypeRegistry:64 - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@36dafa24) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2b098563)
+2024-05-28 09:59:41 INFO  [main] JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-28 09:59:41 INFO  [main] HikariDataSource:109 - HikariPool-2 - Starting...
+2024-05-28 09:59:41 INFO  [main] HikariPool:554 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5e02fb23
+2024-05-28 09:59:41 INFO  [main] HikariDataSource:122 - HikariPool-2 - Start completed.
+2024-05-28 09:59:41 INFO  [main] SpringBatchAppApplication:56 - Started SpringBatchAppApplication in 2.262 seconds (process running for 2.896)
+2024-05-28 09:59:42 DEBUG [main] SQL:135 - 
+    insert 
+    into
+        Person
+        (name) 
+    values
+        (?) 
+    returning id
+2024-05-28 09:59:42 INFO  [SpringApplicationShutdownHook] HikariDataSource:349 - HikariPool-2 - Shutdown initiated...
+2024-05-28 09:59:42 INFO  [SpringApplicationShutdownHook] HikariDataSource:351 - HikariPool-2 - Shutdown completed.
+2024-05-28 09:59:42 INFO  [SpringApplicationShutdownHook] HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-05-28 09:59:42 INFO  [SpringApplicationShutdownHook] HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-05-28 10:00:11 INFO  [main] SpringBatchAppApplication:50 - Starting SpringBatchAppApplication using Java 21.0.2 with PID 21488 (F:\IntelliJ IDEA 2023.1\spring-batch-app\target\classes started by marce in F:\IntelliJ IDEA 2023.1\spring-batch-app)
+2024-05-28 10:00:11 DEBUG [main] SpringBatchAppApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-05-28 10:00:11 INFO  [main] SpringBatchAppApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-05-28 10:00:11 WARN  [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker:437 - Bean 'jobRegistry' of type [org.springframework.batch.core.configuration.support.MapJobRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-28 10:00:11 INFO  [main] LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28 10:00:11 INFO  [main] Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-28 10:00:11 INFO  [main] RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-05-28 10:00:11 INFO  [main] HikariDataSource:109 - HikariPool-1 - Starting...
+2024-05-28 10:00:12 INFO  [main] HikariPool:554 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fd8dd66
+2024-05-28 10:00:12 INFO  [main] HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-05-28 10:00:12 DEBUG [main] DdlTypeRegistry:64 - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@2353354a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7c7ed72a)
+2024-05-28 10:00:12 DEBUG [main] DdlTypeRegistry:64 - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@22b7ef2b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6d421fe)
+2024-05-28 10:00:12 INFO  [main] JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-28 10:00:12 INFO  [main] HikariDataSource:109 - HikariPool-2 - Starting...
+2024-05-28 10:00:12 INFO  [main] HikariPool:554 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5862dda4
+2024-05-28 10:00:12 INFO  [main] HikariDataSource:122 - HikariPool-2 - Start completed.
+2024-05-28 10:00:13 INFO  [main] SpringBatchAppApplication:56 - Started SpringBatchAppApplication in 2.224 seconds (process running for 2.863)
+2024-05-28 10:00:13 DEBUG [main] SQL:135 - 
+    insert 
+    into
+        Person
+        (name) 
+    values
+        (?) 
+    returning id
+2024-05-28 10:00:13 INFO  [SpringApplicationShutdownHook] HikariDataSource:349 - HikariPool-2 - Shutdown initiated...
+2024-05-28 10:00:13 INFO  [SpringApplicationShutdownHook] HikariDataSource:351 - HikariPool-2 - Shutdown completed.
+2024-05-28 10:00:13 INFO  [SpringApplicationShutdownHook] HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-05-28 10:00:13 INFO  [SpringApplicationShutdownHook] HikariDataSource:351 - HikariPool-1 - Shutdown completed.
